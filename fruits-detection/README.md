@@ -1,14 +1,12 @@
-# FastFood Classification
+# Fruits Detection YOLOv8
 
-This repository provides access to Jupyter notebooks developed in Google Colab for a FastFood classification project using TensorFlow with pre-trained models ResNet50V2 and InceptionV3. The goal is to classify fast food images into 5 categories including Burger, Donut, HotDog, Pizza, and Sandwich. Reference for this project is from [this Kaggle Notebook](https://www.kaggle.com/code/utkarshsaxenadn/fast-food-classification-resnet50v2-acc-92/notebook).
+This repo use the pretrained model YOLOv8s to training with the egg-data that provided by teacher. After that I download the mix data of apple, egg, orange and mango from roboflow universe to train agian and get the best model. Then use the best model to predict and show the result in matrix.
 
 ## Project Overview
-- **Objective**: Build and train deep learning models to classify fast food images.
-- **Models**: 
-  - ResNet50V2 (pre-trained on ImageNet)
-  - InceptionV3 (pre-trained on ImageNet)
-- **Framework**: TensorFlow/Keras
+- **Objective**: Build and train deep learning models to detect mix fruits images.
+- **Models**: YOLOv8
 - **Environment**: Google Colab (with GPU support)
-- **Data**: [Fast Food Classification Dataset - V1](https://www.kaggle.com/datasets/utkarshsaxenadn/fast-food-classification-dataset/versions/1)
-- **Notebooks**: [Fast-Food Classification](https://colab.research.google.com/drive/1fw4lVVTOxQhdSdnhFcepvmc3Xj3IvPj9?usp=sharing)
-<img width="581" alt="image" src="https://github.com/user-attachments/assets/c6d93e43-e581-4b71-8489-9ccc374eb08f" /> 
+- **Data**: [Roboflow Universe](https://universe.roboflow.com/)
+- **Notebooks**: [Fruits Detection](https://drive.google.com/file/d/1mloiEb-3UzHlY1KrYO9JbJMpOuJdkcZT/view?usp=sharing)
+
+![image](https://github.com/user-attachments/assets/438dd4eb-2cd5-4278-8830-77204eff763d)
